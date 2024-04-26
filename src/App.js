@@ -9,6 +9,8 @@ import {
 import Navbar from "./components/navbar"
 import Footer from "./components/footer"
 import Home from "./components/home"
+import Home2 from "./components/home2"
+import Item from  "./components/item"
 import Register from "./components/register"
 import Login from "./components/login"
 import About from "./components/about"
@@ -49,12 +51,18 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />
-
-
+      },
+      {
+        path: "/home",
+        element: <Home2 />
       },
       {
         path: "/terms",
         element: <Terms />
+      },
+      {
+        path: "/plan",
+        element: <Item />
       },
       {
         path: "/contact",

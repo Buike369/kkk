@@ -1,6 +1,6 @@
 .heroDiv {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     z-index: 500;
     padding: 2px 10px
@@ -9,6 +9,12 @@
 .navbarMainDiv {
     position: relative;
 
+}
+
+.Ern {
+    font-size: 70px;
+    font-weight: 500;
+    color: #a2e9d9;
 }
 
 .headerDivFle {
@@ -32,7 +38,7 @@
 }
 
 .headerDivFle21 {
-    margin-top: 50px;
+    margin-top: 38px;
     width: 100%;
     height: 100%;
 }
@@ -56,14 +62,14 @@
 }
 
 .Explore {
-margin-top: 26%;
+    margin-top: 19%;
     font-size: 70px;
     font-weight: 500;
     margin-bottom: 26px;
     font-family: sans-serif;
     line-height: 79px;
     /* color:#5450a0; */
-    color:#fff;
+    color: #fff;
 
 }
 
@@ -74,7 +80,7 @@ margin-top: 26%;
 .Explore1 {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #c8c7d8;
+    color: #c4f1e5;
 }
 
 .Explore2 {
@@ -116,11 +122,13 @@ margin-top: 26%;
 .dereF {
     padding: 60px 0 20px 0
 }
-.CNN{
-    margin:80px auto 30px auto;
-    width:70%;
+
+.CNN {
+    margin: 80px auto 30px auto;
+    width: 70%;
     border-bottom: 1px solid #2f2f45;
 }
+
 .imgSrc1 {
     width: 100%;
     max-width: 500px;
@@ -248,7 +256,7 @@ margin-top: 26%;
 .Checkout {
     font-size: 18px;
     font-weight: 400;
-    color:#a7a6b5;
+    color: #a7a6b5;
 }
 
 .MostPopular {
@@ -278,12 +286,15 @@ margin-top: 26%;
     color: gold;
     border: 1px solid #434356;
 }
-.Numb{
-    color:#8486a3;
+
+.Numb {
+    color: #8486a3;
     text-decoration: line-through;
     font-size: 12px;
     font-weight: 400;
 }
+
+
 
 .WhatIs {
     font-size: 20px;
@@ -292,12 +303,149 @@ margin-top: 26%;
     color: var(--p-color);
 
 }
-.fifiM{
-    display:flex;
+
+.fifiM {
+    display: flex;
     justify-content: space-between;
-    width:66.3%
+    width: 66.3%
 }
 
+.EarnP {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 1px;
+    text-align: center;
+    margin-top: 4px;
+    transition: ease all 2s;
+}
+
+.inviteFr {
+    font-size: 42px;
+    font-weight: 500;
+    color: #a2e9d9;
+    line-height: 50.1px;
+    width: 100%;
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 30px;
+    /* font-family: poppins; */
+}
+
+.bettors1 {
+    position: absolute;
+    background-color: #0bf921;
+    top: 42%;
+    right: 7px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    border: 1px solid #221a62;
+}
+
+.proF {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2px 10px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.ghFi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px !important;
+    padding: 30px 25px 22px 25px;
+    width: 100%;
+    max-width: 1300px;
+    margin: 10px auto 10px auto;
+}
+
+.bettorsDiv {
+    position: relative;
+    width: 200px;
+    text-align: center;
+}
+.fis{
+    padding:10px 2px;
+    background-color: inherit;
+    text-align: center;
+    border:0;
+    outline:0;
+    font-size:24px ;
+    font-weight: 600;
+    color:#fff
+}
+
+.AddTip {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.itWell {
+    text-align: center;
+    min-height: 100px;
+    color: #a7a7c9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bettors8:hover{
+        border: 2px solid #574ea5;
+}
+.SubP{
+    padding:10px 12px;
+    border-radius: 100px;
+    border:1px solid #574ea5;
+    color:#fff;
+    box-shadow: 0px 2px 2px #000000;
+    width:100%;
+    max-width: 80%;
+    margin:20px auto 10px  auto;
+    text-align: center;
+    cursor: pointer;
+}
+.pl{
+   color:#0bf921;
+   font-size: 24px; 
+   margin-bottom: 10px;
+}
+.dif{
+    margin-bottom: 5px;
+}
+
+.saves {
+    margin-left: 10px;
+    color:#dbdae9;
+}
+
+.withTyb {
+    width: 100%;
+}
+.from{
+    color:#fff;
+    text-align: center;
+    width:100%;
+    max-width: 600px;
+    margin:0 auto;
+    padding:2px 10px
+
+}
+
+.bettors {
+    width: 32%;
+    padding: 5px 20px 5px 20px;
+    /* border-radius: 15px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; */
+    flex-direction: column;
+}
 
 .filesVideo {
     display: flex;
@@ -342,8 +490,8 @@ margin-top: 26%;
 
 .cardDivWithImg:hover {
     transform: scale(1.025);
-        border: 1px solid #717081;
-            /* box-shadow: 0px 2px 11px 4px #1d1d2c; */
+    border: 1px solid #717081;
+    /* box-shadow: 0px 2px 11px 4px #1d1d2c; */
 }
 
 .gig {
@@ -387,7 +535,8 @@ margin-top: 26%;
     margin: 20px 0 10px 0;
 
 }
-.gg{
+
+.gg {
     align-items: normal;
 }
 
@@ -398,9 +547,11 @@ margin-top: 26%;
 .gift {
     width: 32%
 }
-.authorName{
-    color:#2be577
+
+.authorName {
+    color: #2be577
 }
+
 .authorName1 {
     color: gray
 }
@@ -408,8 +559,113 @@ margin-top: 26%;
 .fra {
     color: #6964ab;
 }
-.gg{
-    padding:2px 15px;
+
+.gg {
+    padding: 2px 15px;
+}
+
+.divUnder {
+    width: 10%;
+    max-width: 400px;
+    margin: 0 auto 2px auto;
+    height: 3px;
+    background-color: #38316a;
+}
+
+.bettors8 {
+    width: 32%;
+    background-color: #0d0740;
+    padding: 30px 20px 30px 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    flex-direction: column;
+    border: 1px solid #574ea5;
+    position:relative;
+}
+.monTh{
+    position:absolute;
+    top:0;
+    right:0;
+    padding:10px 15px;
+    background-color: #574ea5;
+    border-top-right-radius: 8px;
+    color:#fff;
+    width:250px;
+}
+.monTh1{
+margin-top: 20px;
+}
+
+.ghFii138 {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    background: #857dcd9c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.AddTip8 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    min-height: 70px;
+    color: #fff;
+}
+
+.HowFarBro {
+    /* background-color: #1b213a; */
+    /* background-color: #272644; */
+    color: #b2b6bd;
+    font-family: monospace;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homeChange {
+    margin-bottom: 8px;
+    border-radius: 8px;
+    background-color: inherit;
+    transition: all 0.5s;
+    border: 1px solid #574ea5;
+    background-color: #171054;
+    position: relative;
+    z-index: 10;
+}
+
+.roto {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+.Qac {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid #2a2864;
+    margin-top: 8px;
+}
+
+.ILOVEK {
+    padding: 10px 15px;
+    color: #e2e2e5;
+    line-height: 20px;
+    font-size: 16px;
 }
 
 @media (max-width:768px) {
@@ -420,11 +676,35 @@ margin-top: 26%;
 
     }
 
+    .ghFi {
+        flex-direction: column;
+        padding: 30px 5px 22px 5px;
+    }
+
+    .roto {
+
+        padding: 10px 0px;
+    }
+
+    .bettors {
+        width: 100%;
+    }
+
+    .bettors8 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .Ern {
+        font-size: 42px;
+    }
+
     .gift {
         width: 100%
     }
-    .CNN{
-            margin: 30px auto 12px auto
+
+    .CNN {
+        margin: 30px auto 12px auto
     }
 
     .morPage1 {
@@ -467,6 +747,19 @@ margin-top: 26%;
         width: 100%;
     }
 
+    .EarnP {
+        font-size: 24px;
+        margin-top: 15px;
+
+    }
+
+    .inviteFr {
+        font-size: 30px;
+        line-height: 38.1px;
+        margin-bottom: 16px;
+        margin-top: 10px;
+    }
+
     .dereF {
         padding: 5px 20px;
     }
@@ -506,17 +799,23 @@ margin-top: 26%;
     .headerDivFle1 {
         width: 100%;
     }
-    .lm{
-        padding:2px 20px;
+
+    .lm {
+        padding: 2px 20px;
+    }
+
+    .R1 {
+        color: #fff;
     }
 
     .ExploreJ {
-        font-size: 38px;
+        font-size: 42px;
         font-weight: 500;
         text-align: center;
         padding: 2px 10px;
         width: 100%;
-        max-width: 90%;
+        max-width: 100%;
+        color: #fff;
         margin: 20px auto 2px auto;
 
     }
@@ -570,8 +869,9 @@ margin-top: 26%;
         width: 100%;
         margin-bottom: 10px;
     }
-    .lm1{
-        display:none;
+
+    .lm1 {
+        display: none;
     }
 }
 
@@ -579,8 +879,9 @@ margin-top: 26%;
     .ExploreJ {
         display: none;
     }
-    .lm{
-        display:none;
+
+    .lm {
+        display: none;
     }
 
 }

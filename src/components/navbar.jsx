@@ -20,7 +20,7 @@ const Header = () => {
     
 
       const scrollF =()=>{
-          if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
+  if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
             setFeedBack('subCap')
           }else{
             setFeedBack(' ')
@@ -61,10 +61,10 @@ const Header = () => {
           </ul>
            :""}  
             </li>
-             <li><a href="" className="navbar1_link">Resources</a></li>
-              <li ><a href="" className="navbar1_link">Learn</a></li>
-               <li ><a href="/blog" className="navbar1_link">Blog</a></li>
-                <li><a href="/pricing" className="navbar1_link">pricing</a></li>
+             <li><a href="/" className="navbar1_link">Download</a></li>
+              <li ><a href="/" className="navbar1_link">Plan</a></li>
+               <li ><a href="/" className="navbar1_link">Affiliate</a></li>
+                <li><a href="/" className="navbar1_link">Blog</a></li>
         
           </ul>
           

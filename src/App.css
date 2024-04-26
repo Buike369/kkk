@@ -1,16 +1,25 @@
 *{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-  font-size: 15px;
-  
-  color:#fff;
 
-  
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+body,
+html {
+  max-width: 100vw;
+  height: 100vh;
+  /* background-image: linear-gradient(0deg, #9fc7ab 0, #1a1e28); */
+    background-image: linear-gradient(0deg, #4f488d 0, #0d0740);
+  overflow-x: hidden;
+}
+html {
+  display: block;
+}
 body{
-  background-color: #181825;
+    display: block;
+    
 }
 
 

@@ -68,7 +68,7 @@ setError("invalid Email")
         <div className='footerHouse'></div>
         <div className="footerBackgroundColor">
             <div className='padG'>
-            <div  className='subEmail'>
+            {/* <div  className='subEmail'>
                 <p className='misOut'>Don't miss out on Fantastic News</p>
                 <p className='misOut1'>Subscribe to our newsletter and be the first to receive news.</p>
                 <form className='FormPP'>
@@ -77,13 +77,39 @@ setError("invalid Email")
                         <FontAwesomeIcon icon={faPaperPlane}  className="HomeV" style={{fontSize:"20px"}} onClick={postInfo1}/>
                     </div>
                 </form>
-            </div>
+            </div> */}
+                          <div style={{padding:"0 10px"}}>
+                <div className="MessageDivCov">
+               <div className="Package_Up">
+                   <h1 className="alap">Don't miss out on Fantastic News</h1>
+                   <p className="Each_Time_your">
+                       Subscribe to our newsletter and be the first to receive news.
+                   </p>
+                   <form>
+                    <div className="newsInput">
+                        <input type="email" placeholder="Enter Your Email"  className="newsBro"/>
+                         <FontAwesomeIcon icon={faPaperPlane} className="EmailSentIcon" />
+                    </div>
+                   </form>
+                   <img src="/img/news.svg" alt=""  className="messageImg"/>
+               </div>
+               <img src="/img/undrawWorld1.svg" alt="" className="papag" />
+                <img src="/img/undrawWorld1.svg" alt="" className="papag1" />
+               
+               </div>
+               </div>
             </div>
 
         <div>
             <div className='footerW'>
                
                 <div className=''>
+                   <div>
+                     <p>MaratP Saving</p>
+                     <div> Saving ur earning with us</div>
+                   </div>
+                </div>
+                 <div className=''>
                     <ul className='footerF'>
                         <li className='pin pin7'><div className="FooterHead">Products</div></li>
                         <li className='pin pin6'><a href="/courses" className='then'>Courses</a></li>
@@ -95,7 +121,7 @@ setError("invalid Email")
                 </div>
                 <div className=''>
                     <ul className='footerF'>
-                        <li className='pin pin7'><div className="FooterHead">About Us</div></li>
+                        <li className='pin pin7'><div className="FooterHead">Company</div></li>
                         <li className='pin pin6'><a href="#" className='then'>Our Team</a></li>
                         <li className='pin pin7'><a href="/about" className='then'>About</a></li>
                         <li className='pin  pin6'><a href="/contact" className='then'>Contact Us</a></li>
@@ -105,7 +131,7 @@ setError("invalid Email")
                 </div>
                 <div className=''>
                     <ul className='footerF'>
-                        <li className='pin pin7'><div className="FooterHead">Legal</div></li>
+                        <li className='pin pin7'><div className="FooterHead">Support</div></li>
                         <li className='pin pin6'><a href="/privacy" className='then'>Privacy Policy</a></li>
                         <li className='pin pin7'><a href="/terms" className='then'>Terms & Conditions</a></li>
                         <li className='pin  pin6'><a href="#" className='then'>Cookie Policy</a></li>
@@ -119,8 +145,16 @@ setError("invalid Email")
                         <li className='pin pin6'><a href="/blog" className='then'>Blog</a></li>
                         <li className='pin pin7'><a href="#" className='then'>Become an Author</a></li>
                         <li className='pin  pin6'><a href="#" className='then'>Become an Affiliate</a></li>
-                        <li className='pin  pin7'><a href="/pricing" className='then'>Pricing</a></li>
-                        <li className='pin1  pin6'><a href="/privacy" className='then'></a></li>
+                        <li className='pin  pin7'><a href="/pricing" className='then'>
+                            <div>
+                                <div>Download App </div>
+                                <div className="downloadApp">
+                                    <div>Google Play</div>
+                                    <div>App Store</div>
+                                </div>
+                            </div>
+                            </a></li>
+                     
                     </ul>
                 </div>
             </div>
